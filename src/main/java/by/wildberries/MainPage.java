@@ -23,15 +23,11 @@ public class MainPage extends PageObject {
     @FindBy(xpath = "//*[@id=\"basketContent\"]/ul[1]/li[1]/a")
     private WebElement signupButton;
 
-    //   @FindBy(id = "login")
     private WebElement loginField;
 
-    //    @FindBy(id = "password")
     private WebElement passwordField;
 
-    // @FindBy(id = "phoneMobile")
     private WebElement phoneField;
-
 
     @FindBy(id = "signIn")
     private WebElement submitButton;
